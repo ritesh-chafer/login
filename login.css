@@ -1,253 +1,55 @@
 body {
-
   overflow: hidden;
   font-family: "Arimo" !important;
 }
 #User {
   background-image: url(./images/Component\ 3\ –\ 1.png);
   background-repeat: no-repeat;
-  background-size:80% 87% ;
+  background-size: 80% 87%;
   padding-top: 30px;
   padding-left: 200px;
 }
 
-@media screen and (max-width:600px){
-  #User{
+@media screen and (max-width: 600px) {
+  #User {
     background-image: none;
     padding-top: 10px;
     padding-left: 10px;
     overflow: hidden;
   }
-  #login .img{
+  #login .img {
     display: none;
+  }
 }
+@media screen and (max-width: 600px) {
+  #User .dots {
+    display: none;
+  }
+  #login {
+    display: none;
+  }
 }
-@media screen and (max-width:600px){
-#User .dots{
-  display: none;
-}
-#login{
-  display: none;
-}
-}
-.dots{
+.dots {
   position: relative;
   bottom: 720px;
   left: 440px;
 }
-.chat_icon{
+.chat_icon {
   position: relative;
   bottom: 100px;
   left: 740px;
 }
-.card{
+.card {
   margin-right: 400px;
-  
 }
-@media screen and (max-width:600px){
-  .card{
-    margin-right: auto;
+@media screen and (max-width: 600px) {
+  .card {
+    margin-right: 0px;
   }
-  .chat_icon{
+  .chat_icon {
     display: none;
     position: relative;
     bottom: 100px;
     left: 740px;
-}
-}
-
-#Login_Box {
-  position: absolute;
-  width: 491px;
-  height: 558px;
-  left: 711px;
-  top: 126px;
-  overflow: visible;
-}
-.Rectangle_2 {
-  filter: drop-shadow(-1px 4px 40px rgba(0, 0, 0, 0.071));
-  position: absolute;
-  overflow: visible;
-  width: 611px;
-  height: 678px;
-  left: 0px;
-  top: 0px;
-}
-#Welcome_Back__ {
-  position: absolute;
-  left: 40px;
-  top: 37px;
-  overflow: hidden;
-  width: 288px;
-  height: 31px;
-  line-height: 45px;
-  margin-top: -8.5px;
-  text-align: left;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 28px;
-  color: rgba(0, 0, 0, 1);
-}
-.Rectangle_5_ {
-  width: 53.53px;
-  height: 385.567px;
-  position: absolute;
-  overflow: visible;
-  transform: translate(-684px, -170.704px)
-    matrix(1, 0, 0, 1, 903.0447, 384.6248) rotate(-90deg);
-  transform-origin: center;
-}
-#Log_In {
-  position: absolute;
-  left: 198px;
-  top: 394px;
-  overflow: visible;
-  width: 96px;
-  height: 25px;
-  text-align: center;
-  font-family: Arimo;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  color: rgba(255, 255, 255, 1);
-}
-#Forgot_password_ {
-  position: absolute;
-  left: 53px;
-  top: 440px;
-  overflow: visible;
-  width: 157px;
-  height: 23px;
-  text-align: left;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  color: rgba(4, 120, 207, 1);
-}
-#Email_Address {
-  position: absolute;
-  left: 749px;
-  top: 262px;
-  overflow: visible;
-  width: 116px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: Arimo;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  color: rgba(80, 80, 80, 1);
-}
-#Password {
-  position: absolute;
-  left: 749px;
-  top: 353px;
-  overflow: visible;
-  width: 80px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: Arimo;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  color: rgba(80, 80, 80, 1);
-}
-.Rectangle_18 {
-  position: absolute;
-  overflow: visible;
-  width: 415px;
-  height: 37px;
-  left: 749px;
-  top: 296px;
-}
-.Rectangle_19 {
-  position: absolute;
-  overflow: visible;
-  width: 415px;
-  height: 37px;
-  left: 749px;
-  top: 387px;
-}
-#abcd_dcba_com {
-  position: absolute;
-  left: 763px;
-  top: 307px;
-  overflow: visible;
-  width: 99px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: Arimo;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 13px;
-  color: rgba(194, 189, 189, 1);
-}
-#Case_Sensitive__special_charac {
-  position: absolute;
-  left: 763px;
-  top: 398px;
-  overflow: visible;
-  width: 200px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: Arimo;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 13px;
-  color: rgba(194, 189, 189, 1);
-}
-#NoPath___Copy__12_ {
-  position: absolute;
-  width: 31px;
-  height: 31px;
-  left: 1125px;
-  top: 390px;
-  overflow: visible;
-}
-.Rectangle_20 {
-  position: absolute;
-  overflow: visible;
-  width: 143px;
-  height: 33px;
-  left: 766px;
-  top: 611px;
-}
-#Sign_Up {
-  position: absolute;
-  left: 816px;
-  top: 620px;
-  overflow: visible;
-  width: 45px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 13px;
-  color: rgba(4, 114, 208, 1);
-}
-#For_a_new_user_ {
-  position: absolute;
-  left: 1063px;
-  top: 617px;
-  overflow: visible;
-  width: 88px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 13px;
-  color: rgba(80, 80, 80, 1);
-}
-.Icon_material_email {
-  overflow: visible;
-  position: absolute;
-  width: 18.105px;
-  height: 13.76px;
-  left: 1129.94px;
-  top: 307.898px;
-  transform: matrix(1, 0, 0, 1, 0, 0);
+  }
 }
