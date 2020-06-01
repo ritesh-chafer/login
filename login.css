@@ -1,27 +1,33 @@
 body {
-  max-width: 100%;
+
   overflow: hidden;
   font-family: "Arimo" !important;
 }
-
 #User {
   background-image: url(./images/Component\ 3\ –\ 1.png);
   background-repeat: no-repeat;
-background-size:80% 87% ;
-padding-top: 30px;
-padding-left: 200px;
- 
+  background-size:80% 87% ;
+  padding-top: 30px;
+  padding-left: 200px;
 }
 
-
-
-
 @media screen and (max-width:600px){
-
-
-#login .img{
+  #User{
+    background-image: none;
+    padding-top: 10px;
+    padding-left: 10px;
+    overflow: hidden;
+  }
+  #login .img{
+    display: none;
+}
+}
+@media screen and (max-width:600px){
+#User .dots{
   display: none;
-
+}
+#login{
+  display: none;
 }
 }
 .dots{
@@ -29,9 +35,27 @@ padding-left: 200px;
   bottom: 720px;
   left: 440px;
 }
-.card{
-  width: 100px;
+.chat_icon{
+  position: relative;
+  bottom: 100px;
+  left: 740px;
 }
+.card{
+  margin-right: 400px;
+  
+}
+@media screen and (max-width:600px){
+  .card{
+    margin-right: auto;
+  }
+  .chat_icon{
+    display: none;
+    position: relative;
+    bottom: 100px;
+    left: 740px;
+}
+}
+
 #Login_Box {
   position: absolute;
   width: 491px;
