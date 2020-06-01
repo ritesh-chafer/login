@@ -7,3 +7,26 @@
   width: 100%;
   height: 100vh;
 }
+#signup{
+  padding-top: 80px;
+}
+.card{
+
+right: 120px;
+
+}
+
+@media screen and (max-width: 600px) {
+  body{
+    padding: 0px;
+  }
+  .signin{
+    background-image: none;
+  }
+  #signup{
+    padding-top: 0px;
+  }
+  .card{
+    right:0px;
+  }
+}
