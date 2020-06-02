@@ -5,3 +5,26 @@
   width: 100%;
   height: 100vh;
 }
+#login{
+  padding-top: 80px;
+}
+.card{
+
+right: 120px;
+
+}
+
+@media screen and (max-width: 600px) {
+  body{
+    padding: 0px;
+  }
+  .login{
+    background-image: none;
+  }
+  #login{
+    padding-top: 0px;
+  }
+  .card{
+    right:0px;
+  }
+}
